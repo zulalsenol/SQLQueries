@@ -24,3 +24,9 @@ WITH WarehouseTransport AS (
 )
 SELECT * 
 FROM WarehouseTransport;
+
+/* This SQL code uses a Common Table Expression (CTE) to define a temporary dataset called `WarehouseTransport`. 
+Each row represents transport data between city warehouses, including a unique `ID` (GUID), origin city, destination city
+and vehicle count. The `VALUES` clause provides the data for the table, and the column names are specified as 
+`RecordId`, `OriginCity`, `DestinationCity`, and `VehicleCount`. The final `SELECT *` query retrieves all the rows from the CTE for display.
+*/
